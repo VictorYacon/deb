@@ -1,0 +1,21 @@
+[Unit]
+Description=microservicio java
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=victor
+
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=victor
+ExecStart=/usr/bin/java -jar /home/victor/Documentos/jar/base-microservice-1.0-SNAPSHOT.jar server /home/victor/Documentos/yml/configdev.yml
+
+[Install]
+WantedBy=multi-user.target

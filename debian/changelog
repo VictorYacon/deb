@@ -1,0 +1,5 @@
+prueba (1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- victor <victor@unknown>  Mon, 21 Sep 2020 11:00:09 -0600

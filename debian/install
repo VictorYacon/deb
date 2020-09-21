@@ -1,0 +1,3 @@
+prueba.service /etc/systemd/system
+base-microservice-1.0-SNAPSHOT.jar /home/victor/Documentos/jar
+configdev.yml /home/victor/Documentos/yml
