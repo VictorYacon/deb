@@ -14,5 +14,6 @@ El script debapi.sh es el encargado de elaborar el paquete .deb
   ~~~
 
 **para instalar el paquete**
- ```sudo dpkg -i nombre-del-paquete.deb```
-
+  ~~~
+    sudo dpkg -i nombre-del-paquete.deb
+  ~~~
