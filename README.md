@@ -12,5 +12,5 @@ El script debapi.sh es el encargado de elaborar el paquete .deb
   `./debapi.sh api-1.2.3 api 1.2.3`
 
 **para instalar el paquete**
- `sudo dpkg -i nombre-del-paquete.deb`
+ ```sudo dpkg -i nombre-del-paquete.deb```
 
