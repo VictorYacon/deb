@@ -9,7 +9,7 @@ El script debapi.sh es el encargado de elaborar el paquete .deb
  - version del paqute
 
 **Para crear un paquete, utilice la siguiente estructura.**
-`./debapi.sh api-1.2.3 api 1.2.3`
+  `./debapi.sh api-1.2.3 api 1.2.3`
 
 **para instalar el paquete**
  `sudo dpkg -i nombre-del-paquete.deb`
