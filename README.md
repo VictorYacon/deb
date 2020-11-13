@@ -1,19 +1,27 @@
-**CREACION DE SCRIPT PARA API(PYTHON)**
+**CREACION DE paquetedeb**
 
-El script debapi.sh es el encargado de elaborar el paquete .deb
+El script generardeb.sh es el encargado de elaborar el paquete .deb para los servicios JAVA
+
 
 **Elementos necesarios para ejecutar el script**
- - ./debapi.sh
- - nombre del directorio
+ - ./generardeb.sh
+ - nombre del archivo .jar
+ - nombre del archivo .yml
  - nombre del paquete
- - version del paqute
+ - version del paquete
 
 **Para crear un paquete, utilice la siguiente estructura.**
   ~~~
-    ./debapi.sh api-1.2.3 api 1.2.3
+    ./generardeb.sh archivo.jar archivo.yml nombrepaquete version
+  ~~~
+
+**Ejemplo**
+ ~~~
+    ./generardeb.sh /home/erebus/archivo.jar /home/erebus/archivo.yml /home/erebus/erebus.service erebus 1.0
   ~~~
 
 **para instalar el paquete**
   ~~~
     sudo dpkg -i nombre-del-paquete.deb
   ~~~
+
